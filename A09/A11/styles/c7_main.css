@@ -124,34 +124,3 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
-/* Style rule for the ul element of the navigation menu */
-#nav_menu ul {
-    list-style: none; /* No bullets from the list */
-    margin: 0; 
-    padding: 0; 
-}
-
-/* Style rule for the li elements in the navigation menu */
-#nav_menu li {
-    float: left; /* Float elements to the left horizontal display */
-}
-
-/* Style rule for the <a> elements within the li elements in the navigation menu */
-#nav_menu li a {
-    display: block; /* Display elements as block elements */
-    width: calc(100% / 5); /* Set the width to 1/5 of the body element width */
-    text-align: center; 
-    padding: 1em 0; /* Set padding above and below the elements */
-    text-decoration: none; 
-    background-color: #800000; 
-    color: white; 
-    font-weight: bold; 
-}
-
-/* Style rule for the "current" class */
-.current {
-    color: yellow; /* Set text color to yellow */
-}
-
-/* Henry Nyame */
